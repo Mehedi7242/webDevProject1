@@ -19,8 +19,7 @@ body{
 header nav ul{
     list-style: none;
     font-family: "Azeret-Mono";
-
-    font-weight: 800;
+    padding: 10px 80px;
 
 }
 .navbar ul{
@@ -38,9 +37,59 @@ header nav ul{
     cursor: pointer;
     border-color:#0D1321;
     border-radius: 8px;
+    height: 57px;
+    width: 244px;
 }
 
 .nav-item{
     font-size: 28px;
     font-weight: 800;
+}
+
+/* banner content start from here  */
+
+.banner {
+    text-align: center;
+    background: #fff;
+    padding: 40px 200px;
+    margin-bottom: 20px;
+    background-image:url(assets/Hero-bg.png);
+
+}
+
+.boy-img {
+    width: 240px;
+    background: transparent;
+    /* for transparent background */
+    
+    
+}
+.banner-title{
+    font-size: 68px;
+    font-weight: 800;
+    
+}
+.banner-paragraph{
+    font-size: 26px;
+    font-weight:400;
+    margin:20px 40px;
+}
+
+.contact-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-color:#0D1321;
+    border-radius: 8px;
+    background-color: #0D1321;
+    color: white;
+    height: 65px;
+    width: 244px;
+
+}
+
+.learn-more-btn{
+    
+
 }
