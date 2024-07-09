@@ -88,8 +88,37 @@ header nav ul{
     width: 244px;
 
 }
+/* paragraph used multiple time for paragraph */
 
-.learn-more-btn{
-    
+.paragraph{
+    font-size: 26px;
+    font-weight:400;
 
 }
+
+.learn-more-btn{
+
+
+}
+
+.common-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.title-box{
+    width: 852px;   
+    text-align: center;
+
+
+}
+
+.why-web-devlopment{
+    padding: 20 97px;
+    margin: 80px 100px;
+    display: flex;
+    justify-content: center;
+}
+
