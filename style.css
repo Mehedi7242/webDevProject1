@@ -158,10 +158,11 @@ header nav ul{
 }
 
 .common-title-lite{
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
     width: 500px;
     margin:20px 0px;
+    color: rgba(13, 19, 33, 0.7);
 }
 
 /* inspiration section start from here  */
@@ -250,9 +251,6 @@ header nav ul{
     gap: 30px;
 }
 
-.skill-icon{
-
-}
 
 .learn-more{
     display: inline-block;
@@ -271,6 +269,9 @@ header nav ul{
 }
 .center{
     text-align: center;
+}
+.left{
+    text-align: left;
 }
 
 /* my-next-target starts from here  */
