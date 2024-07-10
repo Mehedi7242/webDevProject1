@@ -20,6 +20,7 @@
 body{
     font-family:"Azeret Mono";
     width: 1440px;
+    background-color: white;
 }
 /* nav section start from here */
 header nav ul{
@@ -214,13 +215,13 @@ header nav ul{
 }   
 
 .red{
-    background-color: rgba(255, 76, 30, 0.05); /* Orange with 5% opacity */
+    background-color: rgba(255, 76, 30, 0.05); 
 }
 .blue{
-    background-color: rgba(0, 76, 232, 0.05); /* Blue (#004CE8) with 5% opacity */
+    background-color: rgba(0, 76, 232, 0.05); 
 }
 .yollow{
-    background-color: rgba(255, 223, 0, 0.05); /* Yellow (#FFDF00) with 5% opacity */
+    background-color: rgba(255, 223, 0, 0.05);
 }
 
 .target-title{
