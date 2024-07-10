@@ -6,7 +6,7 @@
     color:#0D1321;
     text-decoration: none;
     background-color: #ffffff;
-    background: transparent;
+
 
 }
 
@@ -130,6 +130,7 @@ header nav ul{
     justify-content: center;
     gap: 100px;
     background-color: rgba(13, 19, 33, 0.02);
+    background: transparent;
 }
 
 .learn-more-btn{
