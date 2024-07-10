@@ -6,6 +6,7 @@
     color:#0D1321;
     text-decoration: none;
     background-color: #ffffff;
+    background: transparent;
 
 }
 
@@ -18,7 +19,6 @@
 
 body{
     font-family:"Azeret Mono";
-    
     width: 1440px;
 }
 /* nav section start from here */
@@ -129,7 +129,7 @@ header nav ul{
     flex-direction: column;
     justify-content: center;
     gap: 100px;
-    /* background-color: #adc8f7; */
+    background-color: rgba(13, 19, 33, 0.02);
 }
 
 .learn-more-btn{
@@ -202,7 +202,7 @@ header nav ul{
 .target-box{
     width: 284px;
     text-align:center;
-    background-color: white;
+    
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -212,13 +212,32 @@ header nav ul{
 
 }   
 
+.red{
+    background-color: rgba(255, 76, 30, 0.05); /* Orange with 5% opacity */
+}
+.blue{
+    background-color: rgba(0, 76, 232, 0.05); /* Blue (#004CE8) with 5% opacity */
+}
+.yollow{
+    background-color: rgba(255, 223, 0, 0.05); /* Yellow (#FFDF00) with 5% opacity */
+}
+
 .target-title{
     font-size: 36px;
     font-weight: 800;
     color: #0D1321;
     margin: 10px 10px 10px 0px;
+    background: transparent;
+    
+
 
 }
+
+.dark{
+    color: #0D1321;
+}
+
+
 
 .current-target{
     padding: 90px 97px;
@@ -244,6 +263,7 @@ header nav ul{
     font-weight: bold;
     width: 284px;
     text-align: left;
+    background: transparent;
 
 
 }
