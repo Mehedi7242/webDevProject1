@@ -189,3 +189,61 @@ header nav ul{
 }
 
 /* almost done inspiration section */
+
+
+
+.terget-container{
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+.target-box{
+    width: 284px;
+    text-align:center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align:left;
+    width: 30%;
+
+
+}   
+
+.target-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #0D1321;
+    margin: 10px 10px 10px 0px;
+
+}
+
+.current-target{
+    padding: 90 97px;
+    margin: 0px 80px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-icon{
+
+}
+
+.learn-more{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 0px;
+    color: #0D1321;
+    text-decoration:underline;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 284px;
+    text-align: left;
+
+
+}
